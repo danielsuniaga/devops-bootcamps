@@ -1,122 +1,13 @@
-<!-- HEADING -->
+### Detalles del enunciado
 
-# my title
+Roxs es la líder de un equipo de trabajo para una compañía que realiza Auditorías Externas. Él ha creado un archivo llamado Lista_Precios en su directorio /home. El archivo es altamente confidencial, pero resulta que existe un alto riesgo de que su archivo sea vulnerado porque otros empleados utilizan su equipo al finalizar su turno. Actualmente, Roxs posee una contraseña segura, pero él necesita resguardar los datos de ese archivo y no desea que nadie más que solamente él tenga acceso al mismo. ¿Qué solución le propondrían como equipo a Roxs?
 
-## my title h2
+Considere lo siguiente para solucionar el problema.
 
-### my title h3
+Para proveer una solución apropiada para restringir accesos no autorizados al archivo, se necesita realizar lo siguiente:
 
-#### my title h4
-
-##### my title h5
-
-###### my title h6
-
-<!-- Italic -->
-
-this is an *italic* text
-
-<!-- Strong -->
-
-this is an **strong** text
-
-<!-- strikethrogh -->
-
-this is an ~~texto~~ text 
-
-<!-- UL -->
-
-* APPLE
-    * APPLE 2
-* ORANGE
-    *   ASDASDADA
-* ETC
-
-1. APPLE
-2. ORANGE
-3. ETC
-
-<!-- ENLACE -->
-
-[faztweb.com](https://www.faztweb.com)
-
-[faztweb.com](https://www.faztweb.com "Custom title")
-
-<!-- CITAS -->
-
-> this a quote
-
-<!-- HR -->
-` console.log("test") `
-
-```javascript
-function ingresar_carro() {
-    var placa = $("#placa").val();
-    var dats = new obt_dats_pla(placa,'2');
-    $.ajax({
-        async: true,
-        type: "POST",
-        url: "../gestion/parqueadero/ges_par.php",
-        data: {
-            data: dats
-        },
-        success: function(data) 
-        {
-            console.log(data);
-            
-            var a = $.parseJSON(data);
-
-            if (a['Codigo']=='1') 
-            {
-                $('#btn_ingresar').attr("disabled", true).css('display','none');
-                $('#form2').css('display','none');
-                swal(a['Tipo'],a['Mensaje'],a['acc']);
-                cargar_formulario();
-            }
-            else
-            {
-                swal(a['Tipo'],a['Mensaje'],a['acc']);
-                
-                /*if (a['Codigo']=='2') 
-                {
-                    $('#btn_ingresar').attr("disabled", true).css('display','none');
-                }
-                */
-            }
-
-        }
-    });
-
-}
-
-
-```
-
-```python
-print("Hola mundo")
-```
-
-```html
-<h1>hola mundo</h1>
-```
-
-<!-- TABLA -->
-
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1    | Cell 2   | Cell 3   |
-| Row 2    | Cell 5   | Cell 6   |
-| Row 3    | Cell 8   | Cell 9   |
-
-
-<!-- IMAGEN -->
-![Descripción de la imagen](31112.jpg "Leyenda")
-
-<!-- GITHUB MARKDOWN-->
-
-* [X] Task 1
-* [ ] Task 2
-* [ ] Task 3
-* [X] Task 4
-
-@dsuniaga :smiley: :+1:
+1.  Identificar las medidas de seguridad a implementarse.
+2.  Identificar el tipo de usuarios para quienes los permisos >serán cambiados.
+3.  Identificar el tipo de permiso que necesita ser cambiado.
+4.  Verificar los permisos de acceso al archivo.
+5.  Entregable, crear un Readme.md con la solución al Problema propuesto
