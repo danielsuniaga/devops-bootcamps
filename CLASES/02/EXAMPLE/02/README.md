@@ -15,4 +15,4 @@ Considere lo siguiente para solucionar el problema.
 
 Bien iniciamos la gestión para dar resolución al caso planteado, primeramente creamos los repo y creamos el archivo, en la siguiente imagen podremos ver lo anteriormente mencionado. 
 
-![Creacion archivo y enrutado](/images/1.png "Creación")
+![Creacion archivo y enrutado](images/1.png "Creación")
