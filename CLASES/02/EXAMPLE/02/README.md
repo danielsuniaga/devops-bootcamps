@@ -28,3 +28,17 @@ Vamos a cambiar los permisos de los siguientes usuarios:
 * u:usuario
 * g:grupo
 * o:otros
+
+### Identificar el tipo de permiso que necesita ser cambiado.
+
+Vamos a cambiar los permisos de los siguientes usuarios: 
+
+* r:lectura
+* w:escritura
+* x:ejecucion
+
+### Verificar los permisos de acceso al archivo.
+
+Haciendo el cambio se puede visualizar que solo el usuario que creo el archivo tiene otorgado los permisos para gestionar el mismo. 
+
+![Verificacion de permisos ](images/2.png "Verificacion")
