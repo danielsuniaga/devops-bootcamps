@@ -16,3 +16,15 @@ Considere lo siguiente para solucionar el problema.
 Bien iniciamos la gestión para dar resolución al caso planteado, primeramente creamos los repo y creamos el archivo, en la siguiente imagen podremos ver lo anteriormente mencionado. 
 
 ![Creacion archivo y enrutado](images/1.png "Creación")
+
+### Identificar las medidas de seguridad a implementarse.
+
+Necesitamos delimitar los permisos a que solo el usuario que creo el archivo pueda gestionarlo. 
+
+### Identificar el tipo de usuarios para quienes los permisos >serán cambiados.
+
+Vamos a cambiar los permisos de los siguientes usuarios: 
+
+* u:usuario
+* g:grupo
+* o:otros
